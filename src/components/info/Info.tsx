@@ -1,3 +1,3 @@
 export default function Info() {
-  return <div>Testinfo</div>;
+  return <div>Info</div>;
 }
