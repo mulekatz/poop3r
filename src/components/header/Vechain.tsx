@@ -18,7 +18,7 @@ export default function Vechain() {
         </Link>
       </div>
       <div className="flex flex-col gap-2">
-        <h3 className="text-center font-semibold">VOTE FOR US</h3>
+        <h3 className="text-center font-semibold">VOTE FOR US ON</h3>
         <Link
           to="https://governance.vebetterdao.org/apps/0x52239ee9403d804413a5dff852c4f6d6935ed8c0ee76634e9e54c5dcd46d8e47"
           rel="noopener noreferrer"
