@@ -5,17 +5,7 @@ import { nodePolyfills } from "vite-plugin-node-polyfills";
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [
-    react(),
-    tailwindcss(),
-    nodePolyfills({
-      include: ["module"],
-      globals: {
-        process: true,
-        Buffer: true,
-      },
-    }),
-  ],
+  plugins: [react(), tailwindcss(), nodePolyfills()],
   resolve: {
     alias: {
       // Füge Alias für problematische Module hinzu
