@@ -30,8 +30,8 @@ export default function Navigation() {
         >
           <BookOpenIcon className="size-6 xs:size-6 text-primary-content" />
         </Link>
-        <AddPickup className="invisible" />
-        <AddPickup className="absolute m-auto left-0 right-0 w-fit -top-8" />
+        <AddPickup className="invisible h-16" />
+        <AddPickup className="absolute m-auto left-0 right-0 w-fit -top-5 xs:-top-8" />
         <Link
           to="/settings"
           className="flex w-full h-full items-center justify-center"
