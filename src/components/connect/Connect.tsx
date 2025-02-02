@@ -1,18 +1,6 @@
-import { useNavigate } from "react-router";
-import { useWallet } from "@vechain/dapp-kit-react";
 import ConnectButton from "./ConnectButton";
-import { useEffect } from "react";
 
 export default function Connect() {
-  const { account } = useWallet();
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    if (account) {
-      navigate("/");
-    }
-  }, [account, navigate]);
-
   return (
     <section className="flex flex-col w-full gap-4">
       <div className="card bg-base-300 w-full shadow-sm">
