@@ -8,8 +8,8 @@ export default function UserCard({ account }: UserCardProps) {
       <div className="card-body">
         <h2 className="card-title flex-col items-start">
           Willkommen,
-          <p className="text-sm max-w-md truncate">{account}</p>
         </h2>
+        <p className="text-sm max-w-md truncate">{account}</p>
         {/*         <p>
           A card component has a figure, a body part, and inside body there are
           title and actions parts
