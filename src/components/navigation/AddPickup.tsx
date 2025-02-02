@@ -5,9 +5,9 @@ interface AddPickupProps {
 export default function AddPickup({ className }: AddPickupProps) {
   return (
     <div className={`z-10 ${className}`}>
-      <button className="btn btn-secondary btn-circle w-24 h-16">
+      <button className="btn btn-secondary btn-circle w-16 sm:w-24 h-10 sm:h-16">
         <svg
-          className="size-8 text-black"
+          className="size-6 text-black"
           fill="currentColor"
           viewBox="0 0 256 216"
           xmlns="http://www.w3.org/2000/svg"
