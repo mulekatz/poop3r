@@ -5,7 +5,7 @@ export default function ProtectedRoute() {
   const { account } = useWallet();
 
   if (!account) {
-    return <Navigate to="/connect" replace />;
+    return <Navigate to="/" replace />;
   }
 
   return <Outlet />;
