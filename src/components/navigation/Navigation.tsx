@@ -18,11 +18,14 @@ export default function Navigation() {
   return (
     <div className="fixed bottom-0 w-full max-w-2xl">
       <div className="relative flex w-full py-0 bg-primary items-center justify-around">
-        <Link to="/" className="flex w-full h-full items-center justify-center">
+        <Link
+          to="/home"
+          className="flex w-full h-full items-center justify-center"
+        >
           <HomeIcon className="size-6 xs:size-6 text-primary-content" />
         </Link>
         <Link
-          to="/history"
+          to="/statistics"
           className="flex w-full h-full items-center justify-center"
         >
           <BookOpenIcon className="size-6 xs:size-6 text-primary-content" />
