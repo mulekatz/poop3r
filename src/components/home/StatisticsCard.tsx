@@ -23,11 +23,11 @@ export default function StatisticsCard() {
               <p>Earned B3tr:</p>
               <div className="badge badge-outline">
                 47
-                <img
+                {/*  <img
                   src="/images/b3tr-token.svg"
                   alt="Better Token Logo"
                   className="size-4"
-                />
+                /> */}
               </div>
             </div>
           </div>
@@ -50,11 +50,11 @@ export default function StatisticsCard() {
               <p>Earned B3tr:</p>
               <div className="badge badge-outline">
                 534645745
-                <img
+                {/*  <img
                   src="/images/b3tr-token.svg"
                   alt="Better Token Logo"
                   className="size-4"
-                />
+                /> */}
               </div>
             </div>
           </div>
